@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Button,ButtonGroup } from "@material-tailwind/react";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <h1 className="bg-red-500 text-[#FFF] text-center w-1/2" >Vite + React!!!!!</h1>
-
+      
       <div className="flex my-10 text-center">
         <div className="w-14 flex-none bg-blue-500 ml-4 py-4 rounded-xl">01</div>
         <div className="w-64 flex-1 bg-blue-500 ml-4 py-4 rounded-xl">02</div>
@@ -27,7 +28,13 @@ function App() {
         </div>
       </div>
 
-      
+
+      <ButtonGroup className="ml-10">
+        <Button variant="outline">One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
+      <Button className="ml-10">Button</Button>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
