@@ -204,6 +204,35 @@ function App() {
         <div className='h-50 w-50 bg-lime-800  hover:bg-lime-200'>
         </div>
       </div>
+
+      {/* レスポンシブ */}
+      <div className='m-8'>
+        <Typography>レスポンシブ</Typography>
+        {/* 固定 */}
+        <div className="grid grid-cols-6 bg-red-200">
+          <div className="h-20 w-20 bg-red-100">01</div>
+          <div className="h-20 w-20 bg-blue-100">02</div>
+          <div className="h-20 w-20 bg-green-100">03</div>
+          <div className="h-20 w-20 bg-purple-100">04</div>
+          <div className="h-20 w-20 bg-red-100">05</div>
+          <div className="h-20 w-20 bg-blue-100">06</div>
+          <div className="h-20 w-20 bg-green-100">07</div>
+        </div>
+
+        {/* レスポンシブ */}
+        <div className="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-6 bg-blue-200 mt-10">
+          <div className="h-20 w-100% md:w-20 bg-red-100">01</div>
+          <div className="h-20 w-20 bg-blue-100">02</div>
+          <div className="h-20 w-20 bg-green-100">03</div>
+          <div className="h-20 w-20 bg-purple-100">04</div>
+          <div className="h-20 w-20 bg-red-100">05</div>
+          <div className="h-20 w-20 bg-blue-100">06</div>
+          <div className="h-20 w-20 bg-green-100">07</div>
+        </div>
+      </div>
+
+
+      <hr/>
     </>
   )
 }
