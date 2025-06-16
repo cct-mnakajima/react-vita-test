@@ -1,0 +1,77 @@
+.app-area {
+  /* margin-top: 20px;
+  margin-left: 20px; */
+  padding: 20px;
+}
+
+.parent-area {
+  background-color: #666666;
+
+  margin: 50px;
+  padding: 30px;
+  border-width: 20px;
+
+  border-style: solid;
+  border-color: rgb(255, 183, 75);
+
+  /* and セレクタ */
+  &.v2{
+    border-color: rgb(144, 75, 255);
+  }
+}
+
+.child-area {
+  background-color: #FFFFFF;
+  margin: 10px;
+  
+}
+
+.child-box {
+   background-color: #d6ffaf;
+   margin: 10px;
+
+   width: 50%;
+   height: 100px;
+
+}
+
+
+
+.parent-area-vw {
+  width: 60%;
+  background-color: rgb(231, 179, 66)
+  
+}
+
+.child-area-vw {
+  width: 50vw;
+  background-color: rgb(175, 255, 251)
+
+}
+
+.child-area-per {
+  width: 50%;
+  background-color: rgb(255, 184, 175)
+
+}
+
+.app-title {
+  font-size: 10vw;
+}
+
+/* リンクの色 */
+a {
+  color: #00D0ff; /* デフォルトのリンクの色 */
+  text-decoration:underline;
+}
+
+h1 {
+  font-size: 10vw;
+
+}
+
+.cercle {
+
+  
+
+}
